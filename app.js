@@ -1,6 +1,7 @@
 const imageDiv = document.getElementById('images');
 const button = document.getElementById('button');
 const bulb = document.getElementById('bulb');
+const year = document.getElementById('year');
 
 
 let isOn = false;
@@ -27,3 +28,5 @@ const toggle = () => {
 
 button.addEventListener('click', toggle);
 
+const newYear = (new Date()).getFullYear();
+year.innerText = newYear;
