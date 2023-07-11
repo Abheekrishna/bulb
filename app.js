@@ -30,3 +30,5 @@ button.addEventListener('click', toggle);
 
 const newYear = (new Date()).getFullYear();
 year.innerText = newYear;
+
+console.log('Hey I know you\'re a dev!! \nGot an idea 💡. Let\'s work together, contact me 👇🏻 \nabheekrishna17@gmail.com');
