@@ -8,17 +8,17 @@ let isOn = false;
 const on = () => {
     bulb.src = './images/bulb-on.png';
     bulb.classList.add('on');
-    isOn = true;
+    isOn = false;
 }
 
 const off = () => {
     bulb.src = './images/bulb-off.png';
     bulb.classList.remove('on');
-    isOn = false;
+    isOn = true;
 }
 
 const toggle = () => {
-    if(isOn) {
+    if(isOn === true) {
         on();
     } else {
         off();
